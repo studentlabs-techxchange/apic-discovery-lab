@@ -1,12 +1,12 @@
 openapi: 3.0.3
 info:
-  title: photos
+  title: photos1
   version: 1.0.0
-  x-ibm-name: photos
+  x-ibm-name: photos1
 servers:
   - url: https://jsonplaceholder.typicode.com
 paths:
-  /photos:
+  /photos1:
     get:
       responses:
         '200':
@@ -15,7 +15,7 @@ paths:
             text/plain:
               schema:
                 type: string
-  /photos/{pathParam0}:
+  /photos1/{pathParam0}:
     parameters:
       - name: pathParam0
         in: path
